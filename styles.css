@@ -1,0 +1,134 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Cor de fundo suave */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-header {
+    background: linear-gradient(to right, #a0d8e1, #74c1d4); /* Gradiente de fundo mais claro */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px; /* Bordas arredondadas */
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: white;
+    color: #74c1d4;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+.btn:hover {
+    background-color: #e0e0e0; /* Altera a cor ao passar o mouse */
+}
+
+h2 {
+    color: #00796b; /* Cor dos títulos */
+    margin-top: 40px;
+    font-weight: bold; /* Negrito para os títulos */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra para os títulos */
+}
+
+.quote, .memory-quote {
+    font-style: italic;
+    color: #555; /* Cor da fonte para as citações */
+    margin-top: 10px;
+    text-align: center; /* Centraliza as citações */
+    font-size: 1.1em; /* Aumenta um pouco o tamanho da fonte */
+}
+
+.foto-principal {
+    max-width: 300px; /* Ajuste o tamanho da imagem aqui */
+    height: auto; /* Mantém a proporção */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem com margem */
+    border-radius: 15px; /* Bordas arredondadas na imagem */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.small-image {
+    max-width: 150px; /* Tamanho das imagens menores */
+    height: auto; /* Mantém a proporção */
+    margin: 10px; /* Margem entre as imagens */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: transform 0.2s; /* Efeito de transição */
+}
+
+.small-image:hover {
+    transform: scale(1.05); /* Aumenta levemente ao passar o mouse */
+}
+
+footer {
+    background-color: #00796b; /* Cor do fundo do rodapé */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra no rodapé */
+}
+<!-- Estilo adicional -->
+<style>
+  .dona-helena-section {
+    padding: 40px 0;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  .dona-helena-section h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+
+  .dona-helena-section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+
+  .dona-helena-section .quote {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: #8e44ad;
+    margin-bottom: 30px;
+  }
+
+  .small-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .memory-quote {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: #8e44ad;
+    margin-top: 30px;
+  }
+</style>
+  
